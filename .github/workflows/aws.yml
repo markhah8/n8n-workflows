@@ -32,11 +32,11 @@ on:
 
 env:
   AWS_REGION: ap-southeast-1                        # Khu vực AWS
-  ECR_REPOSITORY: ffmpeg                            # Tên ECR Repository
-  ECS_SERVICE: ffmpeg-service-oqt26t14              # Tên ECS Service
+  ECR_REPOSITORY: n8nwf                            # Tên ECR Repository
+  ECS_SERVICE: n8nworkflow-service-pq6z2fah         # Tên ECS Service
   ECS_CLUSTER: magnificent-deer-9dni37              # Tên ECS Cluster
-  ECS_TASK_DEFINITION: .aws/ffmpeg-revision1.json   # Đường dẫn đến Task Definition JSON mẫu
-  CONTAINER_NAME: ffmpeg                            # Tên container trong Task Definition
+  ECS_TASK_DEFINITION: .aws/n8nwf.json             # Đường dẫn đến Task Definition JSON mẫu
+  CONTAINER_NAME: n8nwf                            # Tên container trong Task Definition
 
 permissions:
   contents: read
