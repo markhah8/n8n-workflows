@@ -36,7 +36,7 @@ env:
   ECS_SERVICE: n8nworkflow-service-pq6z2fah         # Tên ECS Service
   ECS_CLUSTER: magnificent-deer-9dni37              # Tên ECS Cluster
   ECS_TASK_DEFINITION: .aws/n8nwf.json             # Đường dẫn đến Task Definition JSON mẫu
-  CONTAINER_NAME: n8nworkflow                  # Tên container trong Task Definition
+  CONTAINER_NAME: n8nwf-container                  # Tên container trong Task Definition
 
 permissions:
   contents: read
